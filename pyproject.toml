@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "everydaycoffeenaut"
+version = "0.1.0"
+description = ""
+authors = ["pawelpruszynski-tomtom <pawelpruszynski@tomtom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+pyvibe = "^0.0.5"
+folium = "^0.19.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
